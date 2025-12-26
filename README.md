@@ -57,30 +57,6 @@ A scalable REST API with JWT authentication, role-based access control, CRUD ope
 
 ---
 
-## Project Structure
-
-backend/
-├─ src/
-│  ├─ config/
-│  ├─ middlewares/
-│  ├─ modules/
-│  │  ├─ auth/
-│  │  └─ tasks/
-│  ├─ utils/
-│  ├─ app.js
-│  └─ server.js
-└─ .env
-
-frontend/
-├─ src/
-│  ├─ api/
-│  ├─ pages/
-│  ├─ components/
-│  ├─ App.jsx
-│  └─ main.jsx
-
----
-
 ## Environment Variables
 
 Create a `.env` file in the backend root:
@@ -180,3 +156,4 @@ Steps:
 
 Aneeq
 Backend Developer Intern Assignment
+
