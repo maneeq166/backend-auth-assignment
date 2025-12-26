@@ -14,7 +14,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     fetchTasks();
-  }, [tasks]); // FIXED
+  }, []); 
 
   const createTask = async () => {
     if (!title.trim()) return;
